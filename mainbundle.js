@@ -22903,9 +22903,8 @@
 	        if (this.props.display) {
 	            if (is_safari) style.display = 'block';
 	            else style.transform =  'scale(1)'
-
-
 	        }
+	        console.log(style);
 	        return (
 	            React.createElement("div", {style: style, id: "html-map-body"}, 
 	                React.createElement(HTMLmapGutters, {ammount: helpers.allObjects(this.props.data.objects).length * 2}), 
