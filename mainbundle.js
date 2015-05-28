@@ -22896,7 +22896,7 @@
 	            transformOrigin: 'right'
 	        };
 
-	        if (is_safari) style.display = 'hidden';
+	        if (is_safari) style.display = 'none';
 	        else style.transform =  'scale(0)';
 
 
